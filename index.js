@@ -10,7 +10,7 @@ routes.all('/', async (req, res) => {
 app.use(routes);
 
 async function run() {
-    console.log('comecou');
+    console.log('comecouu');
     app.listen(port);
 }
 run().catch(console.error);
